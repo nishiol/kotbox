@@ -1,0 +1,36 @@
+[versions]
+kotlin = "2.1.10"
+git-version = "3.1.0"
+maven-publish = "0.30.0"
+kobject = "1.0.1"
+logging = "7.0.4"
+postgresql = "42.7.5"
+testcontainers = "1.20.5"
+jackson = "2.18.3"
+awaitility = "4.3.0"
+assertj = "3.27.3"
+hikari = "6.2.1"
+logback = "1.5.17"
+spring-boot = "3.4.3"
+
+[libraries]
+
+kotlin-jvm = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
+git-version = { module = "com.palantir.git-version:com.palantir.git-version.gradle.plugin", version.ref = "git-version" }
+maven-publish = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
+kobject = { module = "ru.nishiol.kobject:kobject", version.ref = "kobject" }
+logging = { module = "io.github.oshai:kotlin-logging-jvm", version.ref = "logging" }
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }
+
+testcontainers-core = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers" }
+testcontainers-postgresql = { module = "org.testcontainers:postgresql", version.ref = "testcontainers" }
+testcontainers-junit = { module = "org.testcontainers:junit-jupiter", version.ref = "testcontainers" }
+jackson = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+awaitility = { module = "org.awaitility:awaitility-kotlin", version.ref = "awaitility" }
+assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+hikari = { module = "com.zaxxer:HikariCP", version.ref = "hikari" }
+logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+spring-boot-dependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+
+[bundles]
+gradle-plugins = ["kotlin-jvm", "git-version", "maven-publish"]

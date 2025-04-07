@@ -1,0 +1,3 @@
+logging:
+  level:
+    ru.nishiol.kotbox: debug
