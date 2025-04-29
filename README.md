@@ -46,16 +46,14 @@ Kotbox is distributed as a set of modules so you can include only what you need:
 **Gradle** (Kotlin DSL) example:
 ```kotlin
 dependencies {
-    implementation("ru.nishiol.kotbox:kotbox-core:0.9.0")
-    implementation("ru.nishiol.kotbox:kotbox-postgresql:0.9.0")      // for PostgreSQL support
-    implementation("ru.nishiol.kotbox:kotbox-jackson:0.9.0")         // for JSON serialization via Jackson
-    implementation("ru.nishiol.kotbox:kotbox-spring-boot-starter:0.9.0") // for Spring Boot auto-configuration (if using Spring)
+    implementation("ru.nishiol.kotbox:kotbox-core:0.0.1")
+    implementation("ru.nishiol.kotbox:kotbox-postgresql:0.0.1")      // for PostgreSQL support
+    implementation("ru.nishiol.kotbox:kotbox-jackson:0.0.1")         // for JSON serialization via Jackson
+    implementation("ru.nishiol.kotbox:kotbox-spring-boot-starter:0.0.1") // for Spring Boot auto-configuration (if using Spring)
 }
 ```
 
 If you are using Maven, use the same coordinates for `<groupId>ru.nishiol.kotbox</groupId>` and the respective `<artifactId>` names.
-
-> **Note:** The library is not published to Maven Central yet
 
 > **Note:** Building Kotbox from source:
 > 1. Clone the Kotbox repository and run `./gradlew publishToMavenLocal` to publish the artifacts to your local Maven repository.
