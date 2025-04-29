@@ -9,4 +9,4 @@ dependencies {
     implementation(libs.jackson)
 }
 
-kotboxMavenPublish(artifactId = "kotbox-jackson", description = "kotbox-jackson")
+kotboxMavenPublish(artifactId = "kotbox-jackson", description = "Kotbox Jackson Payload Serializer")

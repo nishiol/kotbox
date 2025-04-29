@@ -20,4 +20,4 @@ dependencies {
     testImplementation(project(":kotbox-jackson"))
 }
 
-kotboxMavenPublish(artifactId = "kotbox-spring-boot-starter", description = "kotbox-spring-boot-starter")
+kotboxMavenPublish(artifactId = "kotbox-spring-boot-starter", description = "Kotbox Spring Boot Starter")

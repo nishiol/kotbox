@@ -9,4 +9,4 @@ dependencies {
     compileOnly(project(":kotbox-postgresql"))
 }
 
-kotboxMavenPublish(artifactId = "kotbox-dialect-provider", description = "kotbox-dialect-provider")
+kotboxMavenPublish(artifactId = "kotbox-dialect-provider", description = "Kotbox Dialect Provider")

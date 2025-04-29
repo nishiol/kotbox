@@ -1,5 +1,3 @@
-import ru.nishiol.kotbox.gradle.kotboxMavenPublish
-
 plugins {
     id("ru.nishiol.kotbox.gradle.common-conventions")
 }
@@ -13,5 +11,3 @@ dependencies {
     testImplementation(project(":kotbox-jackson"))
     testImplementation(project(":kotbox-postgresql"))
 }
-
-kotboxMavenPublish(artifactId = "kotbox-dialect-provider", description = "kotbox-dialect-provider")

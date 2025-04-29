@@ -1,4 +1,4 @@
-# Kotbox
+<img src="logo.png" alt="Logo" width="240" height="240"/>
 
 **Kotbox** is a Kotlin library that implements the [**Transactional Outbox**](https://microservices.io/patterns/data/transactional-outbox.html) pattern for reliable event delivery in distributed systems. It ensures that database operations and outgoing tasks (messages or other side effects) remain in sync, providing eventual consistency without using distributed transactions. Kotbox is inspired by the Java library [gruelbox/transaction-outbox](https://github.com/gruelbox/transaction-outbox) and offers a Kotlin-first solution for transactional task scheduling and outbox processing.
 

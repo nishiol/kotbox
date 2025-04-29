@@ -9,4 +9,4 @@ dependencies {
     implementation(libs.postgresql)
 }
 
-kotboxMavenPublish(artifactId = "kotbox-postgresql", description = "kotbox-postgresql")
+kotboxMavenPublish(artifactId = "kotbox-postgresql", description = "Kotbox PostgreSQL Dialect Provider")

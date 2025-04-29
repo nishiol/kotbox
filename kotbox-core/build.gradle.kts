@@ -9,4 +9,4 @@ dependencies {
     implementation(libs.logging)
 }
 
-kotboxMavenPublish(artifactId = "kotbox-core", description = "kotbox-core")
+kotboxMavenPublish(artifactId = "kotbox-core", description = "Kotbox Core")
